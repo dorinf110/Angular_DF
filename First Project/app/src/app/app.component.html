@@ -1,1 +1,12 @@
 My name is {{firstname}} {{lastname}}
+<h1 [innerText]="texth1">Text de baza</h1>
+<button (click)="OnClick()">Click me please!</button>
+
+<input type="text" name="value" [(ngModel)]="value">
+<button (click)="Click2()">Click again!</button>
+
+<br>
+<br>
+<input type="text" [(ngModel)]="colorvalue">
+<h1 [style.color]="fontColor">H1 color changed</h1>
+<button (click)="Click3()">Change color of text</button> 
